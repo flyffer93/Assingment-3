@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>computerstore</title>
+    <link rel="stylesheet" href="computer.css">
+</head>
+<body>
+    <h1 class="header">Computerstore</h1>
+    <div class="flex-container">
+         
+        <div>
+            <h2>work</h2>
+            <p>you need to work to get money for your computer</p>
+            <p>Paycheck</p>
+            <span id="paycheck">0</span>
+            <br>
+            <button id="work" onclick="workButton()">Work</button>
+            <br>
+            <button id="bank" onclick="bankButton()">Bank</button>         
+        </div> 
+
+        <br>
+        <div>
+            <h2>Bank</h2>
+            <p>Bankbalance</p>
+            <span id="bankbalance">0</span>
+            <br>
+            <p>Loan money</p>
+            <span id="loanbank">0</span>
+            <br>
+            <button id="loan" onclick="loanButton()">Loan</button>
+            <br> 
+            <button hidden id="repay" onclick="repayButton()">Payback</button>
+        </div>   
+
+        <br>
+        <div id="shopdiv">
+            <h2>Shop</h2>
+            <p>Please find your computer</p>
+            <select name="computers" id="computers"></select>
+            <br>
+            <p id="features" hidden>placeholder</p>
+            <img id="image" src="assets/images/1.png" alt="computers" hidden>
+            <p id="description" hidden>placeholder</p>
+            <span>Price </span>
+            <span id="price">0</span>   
+            <button id="pay" onclick="payButton()">Buy now</button>
+            <p id="message" hidden>You just got yourself a new computer</p>
+        </div>
+
+    </div>
+
+
+    <script src="computersho.js"></script>
+</body>
+</html>

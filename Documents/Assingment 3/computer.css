@@ -1,0 +1,20 @@
+
+/* Had a hard time to get the text to break in the felx box */
+.flex-container{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+
+.header {
+  text-align: center;
+}
+
+#image{
+
+  width: 100px;
+  height: 100px;
+}
